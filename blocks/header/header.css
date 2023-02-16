@@ -21,7 +21,7 @@
   border-radius: 3px;
   background-color: #fc0;
   left: 5px;
-  transition: transform .5s, opacity .5s, background-color .1s;
+  transition: transform .5s, opacity .5s, background-color .5s;
 }
 
 .header__burger-btn span:nth-child(1) {
@@ -70,8 +70,10 @@
     height: 50px;
     background-color: #292929;
   }
+}
 
+@media screen and (max-width: 600px) {
   .header__logo {
-    margin: 0 0 10px;
+    width: 70%;
   }
 }

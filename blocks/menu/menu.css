@@ -7,11 +7,7 @@
   display: flex;
   justify-content: space-between;
   list-style: none;
-  padding: 0 5%;
-}
-
-.menu__item {
-  
+  padding: 0 12px;
 }
 
 .menu__link {
@@ -39,7 +35,7 @@
     width: 237px;
     min-width: 180px;
     padding: 20px 15px 20px;
-    margin: 150px 0 0;
+    margin: 180px 0 0;
     transition: transform 0.9s;
   }
 
@@ -57,12 +53,18 @@
 
 @media screen and (max-width: 640px) {
   .menu {
-    margin: 110px 0 0;
+    margin: 150px 0 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    margin: 170px 0 0;
   }
 }
 
 @media screen and (max-width: 460px) {
   .menu {
-    margin: 90px 0 0;
+    margin: 150px 0 0;
   }
 }
