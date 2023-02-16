@@ -1,15 +1,19 @@
 .header {
-  
+  display: flex;
+  flex-direction: column;
 }
 
 .header__logo {
-  width: 600px;
-  height: 173px;
+  align-self: center;
+  width: 50%;
+  height: auto;
+  max-width: 600px;
+  margin: 0 0 50px;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .header__logo {
-    width: 142px;
-    height: 42px;
+    width: 400px;
+    height: 115px;
   }
-}
+} */

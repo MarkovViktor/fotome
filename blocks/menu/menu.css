@@ -1,0 +1,23 @@
+.menu {
+  background-color: #292929;
+  width: 100%;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu__item {
+  
+}
+
+.menu__link {
+  text-decoration: none;
+  padding: 15px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: #fc0;
+  letter-spacing: 0.7px;
+}
